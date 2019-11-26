@@ -28,7 +28,7 @@ mongoose.connect(uri, {
 
 app.use(express.json());
 
-// Bodyparser 
+// Bodyparser
 app.use(express.urlencoded({
   extended: false,
 }));
